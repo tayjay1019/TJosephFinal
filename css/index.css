@@ -1,0 +1,245 @@
+body {
+    background: url("../img/circut_test.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#banner {
+    height: 200px;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 50pt;
+    padding-top: 60px;
+    color: white;
+}
+
+#description {
+    float: right;
+}
+
+nav {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: darkblue;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 8px;
+}
+
+nav a:hover {
+    background-color: #e8ebec;
+    color: black;
+    transition: 1s ease-out;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+}
+
+.wrapper {
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 80%;
+    border: 1px solid #000;
+    min-width: 960px;
+    max-width: 2048px;
+}
+
+#mainWrapper {
+    height: 500px;
+    border: 2px solid #000;
+}
+
+.navId {
+   padding: 10px;
+    background-color: #e8ebec;
+    border: none;
+}
+
+p {
+    margin-left: 2em;
+}
+
+#tayShot {
+    background-image: url("../img/DSC04951.jpg");
+    height: 400px;
+    width: 400px;
+    margin-left: 2em;
+    margin-right: 2em;
+    float: right;
+}
+
+#hangShot {
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin-right: 2em;
+    margin-left: 1em;
+    margin-bottom: 0;
+    background-image: url("../img/hangman7.png");
+}
+
+#bullShot {
+    height: 100px;
+    width: 200px;
+    float: right;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 0;
+    background-image: url("../img/cow.jpg");
+    background-repeat: no-repeat;
+}
+
+#mailShot {
+    float: right;
+}
+#gambitFail {
+    height: 400px;
+}
+
+#gameLink {
+    height: 300px;
+    width: 300px;
+    float: right;
+    background-image: url("../img/fail.jpg");
+    background-repeat: no-repeat;
+    margin: 2em;
+    margin-bottom: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+#extraWork {
+    height: 450px;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 2em;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+#printer {
+    font-size: 3em;
+    float: bottom;
+}
+
+#wrongTest {
+    font-size: 2em;
+    color: red;
+}
+#error {
+    color: red;
+}
+
+.fill {
+    background-image: url('http://source.unsplash.com/random/100x100');
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.empty {
+    display: inline-block;
+    height: 110px;
+    width: 110px;
+    margin: 5px;
+    border: 3px salmon solid;
+    background-color: lightcyan;
+}
+
+.hold {
+    border: solid lightgray 4px;
+}
+
+.hovered {
+    background: lightgray;
+    border-style: dashed;
+}
+
+.invisible {
+    display: none;
+}
+
+
+#quote {
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    color: gray;
+}
+#quote2 {
+    font-size: large;
+}
+
+#gameLink {
+    text-align: right;
+}
+
+#gallery {
+    position: relative;
+    height: 300px;
+    text-align: left;
+    color: #000;
+}
+#gallery ul {
+    list-style-type: none;
+    width: 300px;
+}
+#gallery li {
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+#gallery img {
+    border-style: none;
+}
+#gallery a {
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+}
+#gallery span {
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+#gallery a:hover span {
+    position: absolute;
+    top: 16px;
+    left: 320px;
+    text-align: center;
+    opacity: 1;
+}
+figure {
+    position: absolute;
+    left: 280px;
+    text-align: center;
+}

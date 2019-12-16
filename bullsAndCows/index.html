@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bulls and Cows</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="banner">TAYLOR JOSEPH</div>
+<div class="wrapper navId">
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../gambit.html">Gambit</a>
+        <a href="../work.html">Other Works</a>
+        <a href="../form.html">Contact</a>
+    </nav>
+</div>
+<div class="wrapper">
+    <h1>Bulls and Cows</h1>
+    <h2>How to play:</h2>
+    <p>In this game, the player will try to guess a four digit number with digits
+        ranging form 1 to 9, no 0's.</p>
+    <ul>
+        <li>There are NO repeat numbers</li>
+        <li>Each Cow means one of your digits is correct but in the wrong spot</li>
+        <li>Each Bull means one of your digits is both correct AND in the proper place</li>
+        <li>You get 4 Bulls and YOU WIN!</li>
+    </ul>
+
+    <form name="form" id="form" method="get">
+        <label for="guess">Choose 4 numbers: </label>
+        <input type="text" id="guess" name="guess" size="10"><span id="duplicateError"></span>
+        <br><br>
+        <button type="button" id="submit">Submit</button>
+    </form>
+        <br><br>
+    <table>
+        <tr>
+            <td style="width: 200px">Results: </td>
+            <td style="width: 200px">Total Bulls: <span id="bullTest"></span></td>
+            <td style="width: 200px">Total Cows: <span id="cowTest"></span></td>
+        </tr>
+        <tr>
+            <td><span id="guessCount"></span></td>
+            <td><span id="bullPic"></span></td>
+            <td><span id="cowPic"></span></td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <h2 id="winner"></h2>
+    <br>
+   <button id="showNum">Reveal Hidden Number</button> <div id="ranNum"></div>
+</div>
+    <div class="wrapper">
+        <footer>
+            Copyright &copy; Taylor Joseph<br>
+            <a href="mailto:tjoseph1@my.wctc.edu">Taylor Joseph - tjoseph1@my.wctc.edu</a>
+        </footer>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

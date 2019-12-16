@@ -1,0 +1,16 @@
+#bullPic, #cowPic {
+    font-size: 3em;
+}
+.formError {
+    color: red;
+}
+input.formError{
+    color: black;
+    background-color: lightyellow;
+}
+#guess {
+    margin-right: 10px;
+}
+#duplicateError {
+    color: red;
+}
